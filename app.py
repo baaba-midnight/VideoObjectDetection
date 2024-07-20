@@ -9,7 +9,7 @@ if not os.path.exists("uploads"):
     os.makedirs("uploads")
 
 # load the pre-trained Inception V3 model
-model = tf.keras.applications.InceptionV3(weights='imagenet')
+model = tf.keras.models.load_model("inceptionV3_model.h5")
 
 
 # preprocess image for InceptionV3
