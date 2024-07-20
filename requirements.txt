@@ -1,4 +1,4 @@
 keras
 tensorflow
-cv2
+opencv-python
 os
